@@ -1,13 +1,13 @@
 # Proyecto de Web API con ASP.NET Core, Entity Framework y SQL Server
 
-Este repositorio contiene un proyecto de Web API desarrollado con **ASP.NET Core**, **Entity Framework Core** y **SQL Server**, acompañado de un frontend implementado con **HTML5**, **CSS3** y **JavaScript Vanilla** para proporcionar una experiencia de usuario amigable y completa.
+Este repositorio contiene un proyecto de Web API desarrollado con **ASP.NET Core**, **Entity Framework Core** y **SQL Server**, acompañado de un frontend implementado con **HTML5**, **CSS3** y **JavaScript** para proporcionar una experiencia de usuario amigable y completa.
 
 ## Controladores Implementados
 
 ### 1. Controlador de Usuario (Registro e Inicio de Sesión)
 
 **Entidad Usuario:**
-- Campos: Nombre, Correo, Clave, Estatus.
+- Campos: Nombre, Correo, Clave.
 
 **Endpoints Implementados:**
 - `POST /api/usuarios` - Crear un nuevo usuario.
@@ -20,7 +20,7 @@ Este repositorio contiene un proyecto de Web API desarrollado con **ASP.NET Core
 ### 2. Controlador de País
 
 **Entidad País:**
-- Campos: Nombre, Gentilicio, Capital, Estatus.
+- Campos: Nombre, Gentilicio, Capital
 
 **Endpoints Implementados:**
 - `POST /api/paises` - Crear un nuevo país.
@@ -38,17 +38,12 @@ Este repositorio contiene un proyecto de Web API desarrollado con **ASP.NET Core
 - **CSS3** para la estilización y diseño de la interfaz.
 - **JavaScript Vanilla** para la lógica de interacción y consumo de la API.
 
-## Consideraciones de Seguridad
-
-- Se implementaron medidas básicas de encriptación para la clave de los usuarios.
-- Validación de entradas para evitar inyecciones de código y proteger la API.
-
 ## Frontend del Proyecto
 
 ### Características del Frontend
 - Interfaces amigables para la gestión de usuarios y países.
 - Formularios interactivos para el registro, actualización y eliminación de datos.
-- Funcionalidad de inicio de sesión con validación de usuario y manejo de sesiones.
+- Funcionalidad de inicio de sesión con validación de usuario.
 - Visualización de listas y detalles de usuarios y países.
 - Respuestas y mensajes dinámicos para informar al usuario sobre las acciones realizadas.
 
@@ -60,7 +55,7 @@ Este repositorio contiene un proyecto de Web API desarrollado con **ASP.NET Core
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone https://github.com/usuario/proyecto-web-api.git
+   git clone https://github.com/chrisfelixgil/Web_Country-Person.git
    ```
 2. **Configurar la base de datos:**
    - Asegúrate de tener **SQL Server** en ejecución y de configurar la cadena de conexión en `appsettings.json`.
@@ -73,7 +68,7 @@ Este repositorio contiene un proyecto de Web API desarrollado con **ASP.NET Core
    dotnet run
    ```
 5. **Abrir el frontend:**
-   - Navega al archivo `index.html` del frontend y ábrelo en tu navegador.
+   - Navega al archivo `login.html` del frontend y ábrelo en tu navegador.
 
 ## Conclusión
 
