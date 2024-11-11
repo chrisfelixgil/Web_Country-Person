@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Country-Person</title>
+    <link rel="stylesheet" href="/person/Personstyle.css" type="text/css" />
+  </head>
+  <body>
+    <img class="banner-img" src="/img/HeaderPerson.jpg" alt="banner-country" />
+    <!-- MENU -->
+    <main class="primary-conteiner">
+      <header class="header-web">
+        <nav>
+          <ul class="ul-father">
+            <a href="/index.html"><li>Home</li></a>
+            <a href="/country/country.html"><li>Country</li></a>
+            <a href="./person.html"><li>Person</li></a>
+          </ul>
+        </nav>
+      </header>
+
+      <!--SECTIONS -->
+      <section class="section-one">
+        <h1 class="section-one-headder">🙋🏽 Person Secction 🙋🏽‍♀️</h1>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex magni
+          nulla dignissimos, mollitia placeat vitae vel dolorem quisquam
+          corporis labore consectetur? In aut adipisci recusandae commodi
+          excepturi necessitatibus itaque expedita?
+        </p>
+        <br />
+
+        <!-- SEARCH BAR -->
+        <form action="" method="get" class="search-bar">
+          <input
+            name="nombre"
+            type="text"
+            placeholder="Enter country name"
+            class="input-search"
+          />
+          <button type="submit" class="search-button">🔍</button>
+        </form>
+        <br />
+
+        <!-- TABLE -->
+        <table class="table">
+          <thead>
+            <th>ID</th>
+            <th>Name</th>
+            <th>E-mail</th>
+            <th>Password</th>
+          </thead>
+          <tbody class="data"></tbody>
+        </table>
+        <p class="table-error-msg"></p>
+      </section>
+      <br />
+
+      <!-- SECCION BUTTONS-->
+      <section class="section-two">
+        <button class="action-buttons" type="button">New Person</button>
+        <button class="action-buttons" type="button">Update Person</button>
+        <button class="action-buttons" type="button">Delete Person</button>
+        <button class="action-buttons" type="reset">Clear</button>
+      </section>
+    </main>
+    <script src="/person/PersonScript.js"></script>
+  </body>
+</html>
