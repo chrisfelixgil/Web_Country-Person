@@ -184,3 +184,4 @@ C:\Users\chris\OneDrive\Escritorio\ITLA\Cuatrimestre 4\Programación II - Juan E
 C:\Users\chris\OneDrive\Escritorio\ITLA\Cuatrimestre 4\Programación II - Juan Enmanuel Rosario Rodriguez\Asignacion4\Web_Country-Person\Back-end\Asignacion3\obj\Debug\net8.0\Asignacion3.pdb
 C:\Users\chris\OneDrive\Escritorio\ITLA\Cuatrimestre 4\Programación II - Juan Enmanuel Rosario Rodriguez\Asignacion4\Web_Country-Person\Back-end\Asignacion3\obj\Debug\net8.0\Asignacion3.genruntimeconfig.cache
 C:\Users\chris\OneDrive\Escritorio\ITLA\Cuatrimestre 4\Programación II - Juan Enmanuel Rosario Rodriguez\Asignacion4\Web_Country-Person\Back-end\Asignacion3\obj\Debug\net8.0\ref\Asignacion3.dll
+C:\Users\chris\OneDrive\Escritorio\ITLA\Cuatrimestre 4\Programación II - Juan Enmanuel Rosario Rodriguez\Asignacion4\Web_Country-Person\Back-end\Asignacion3\obj\Debug\net8.0\Asignacion3.sourcelink.json
