@@ -20,7 +20,7 @@ namespace Asignacion3.Services
             context.Pais.Remove(registro);
             context.SaveChanges();
 
-            return "Registro eliminado";
+            return "Country Deleted";
         }
 
         public List<Pais> GetPais()
@@ -47,7 +47,7 @@ namespace Asignacion3.Services
             context.Pais.Add(model);
             context.SaveChanges();
 
-            return "Agregado satisfactoriamente";
+            return "New Country Added!";
 
         }
 
@@ -56,7 +56,7 @@ namespace Asignacion3.Services
             context.Entry(model).State = EntityState.Modified;
             context.SaveChanges();
 
-            return "Actualizado correctamente";
+            return "Country Updated";
 
         }
     }
