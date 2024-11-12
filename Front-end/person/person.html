@@ -39,7 +39,7 @@
             placeholder="Enter country name"
             class="input-search"
           />
-          <button type="submit" class="search-button">🔍</button>
+          <button type="submit" class="search-button" onclick="searchPerson()">🔍</button>
         </form>
         <br />
 
@@ -59,10 +59,13 @@
 
       <!-- SECCION BUTTONS-->
       <section class="section-two">
-        <button class="action-buttons" type="button">New Person</button>
-        <button class="action-buttons" type="button">Update Person</button>
-        <button class="action-buttons" type="button">Delete Person</button>
-        <button class="action-buttons" type="reset">Clear</button>
+        <button class="action-buttons" type="button" onclick="newPerson()">New Person</button>
+        <button class="action-buttons" type="button" onclick="updatePerson()">Update Person</button>
+        <button class="action-buttons" type="button" onclick="deletePerson()">Delete Person</button>
+        <br />
+
+        <!-- NEW PERSON -->
+        <div id="contenedor-formulario"></div>
       </section>
     </main>
     <script src="/person/PersonScript.js"></script>
