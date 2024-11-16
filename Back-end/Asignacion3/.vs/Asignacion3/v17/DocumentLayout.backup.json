@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\chris\\OneDrive\\Escritorio\\ITLA\\Cuatrimestre 4\\Programaci\u00F3n II - Juan Enmanuel Rosario Rodriguez\\Asignacion4\\Web_Country-Person\\Back-end\\Asignacion3\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F4E80C5B-91D2-45D0-8DBF-CF9F8D0AE357}|Asignacion3.csproj|c:\\users\\chris\\onedrive\\escritorio\\itla\\cuatrimestre 4\\programaci\u00F3n ii - juan enmanuel rosario rodriguez\\asignacion4\\web_country-person\\back-end\\asignacion3\\services\\paisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4E80C5B-91D2-45D0-8DBF-CF9F8D0AE357}|Asignacion3.csproj|solutionrelative:services\\paisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F4E80C5B-91D2-45D0-8DBF-CF9F8D0AE357}|Asignacion3.csproj|c:\\users\\chris\\onedrive\\escritorio\\itla\\cuatrimestre 4\\programaci\u00F3n ii - juan enmanuel rosario rodriguez\\asignacion4\\web_country-person\\back-end\\asignacion3\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F4E80C5B-91D2-45D0-8DBF-CF9F8D0AE357}|Asignacion3.csproj|solutionrelative:services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -26,21 +30,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\ITLA\\Cuatrimestre 4\\Programaci\u00F3n II - Juan Enmanuel Rosario Rodriguez\\Asignacion4\\Web_Country-Person\\Back-end\\Asignacion3\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\ITLA\\Cuatrimestre 4\\Programaci\u00F3n II - Juan Enmanuel Rosario Rodriguez\\Asignacion4\\Web_Country-Person\\Back-end\\Asignacion3\\Models\\Usuario.cs",
-              "RelativeToolTip": "Models\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T17:55:58.994Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -48,19 +39,44 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PaisService.cs",
+              "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\ITLA\\Cuatrimestre 4\\Programaci\u00F3n II - Juan Enmanuel Rosario Rodriguez\\Asignacion4\\Web_Country-Person\\Back-end\\Asignacion3\\Services\\PaisService.cs",
+              "RelativeDocumentMoniker": "Services\\PaisService.cs",
+              "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\ITLA\\Cuatrimestre 4\\Programaci\u00F3n II - Juan Enmanuel Rosario Rodriguez\\Asignacion4\\Web_Country-Person\\Back-end\\Asignacion3\\Services\\PaisService.cs",
+              "RelativeToolTip": "Services\\PaisService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T23:05:51.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\ITLA\\Cuatrimestre 4\\Programaci\u00F3n II - Juan Enmanuel Rosario Rodriguez\\Asignacion4\\Web_Country-Person\\Back-end\\Asignacion3\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\ITLA\\Cuatrimestre 4\\Programaci\u00F3n II - Juan Enmanuel Rosario Rodriguez\\Asignacion4\\Web_Country-Person\\Back-end\\Asignacion3\\Models\\Usuario.cs",
+              "RelativeToolTip": "Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T17:55:58.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "UsuarioService.cs",
               "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\ITLA\\Cuatrimestre 4\\Programaci\u00F3n II - Juan Enmanuel Rosario Rodriguez\\Asignacion4\\Web_Country-Person\\Back-end\\Asignacion3\\Services\\UsuarioService.cs",
               "RelativeDocumentMoniker": "Services\\UsuarioService.cs",
               "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\ITLA\\Cuatrimestre 4\\Programaci\u00F3n II - Juan Enmanuel Rosario Rodriguez\\Asignacion4\\Web_Country-Person\\Back-end\\Asignacion3\\Services\\UsuarioService.cs",
               "RelativeToolTip": "Services\\UsuarioService.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAgwC4AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-28T04:19:53.521Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UsuarioController.cs",
               "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\ITLA\\Cuatrimestre 4\\Programaci\u00F3n II - Juan Enmanuel Rosario Rodriguez\\Asignacion4\\Web_Country-Person\\Back-end\\Asignacion3\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsuarioController.cs",
@@ -68,12 +84,11 @@
               "RelativeToolTip": "Controllers\\UsuarioController.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAQwDQAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T04:19:17.132Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-28T04:19:17.132Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "IUsuario.cs",
               "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\ITLA\\Cuatrimestre 4\\Programaci\u00F3n II - Juan Enmanuel Rosario Rodriguez\\Asignacion4\\Web_Country-Person\\Back-end\\Asignacion3\\Interfaces\\IUsuario.cs",
               "RelativeDocumentMoniker": "Interfaces\\IUsuario.cs",
@@ -81,8 +96,7 @@
               "RelativeToolTip": "Interfaces\\IUsuario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T04:18:08.171Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-28T04:18:08.171Z"
             }
           ]
         }

@@ -22,7 +22,7 @@ namespace Asignacion3.Services
             context.Usuario.Remove(registro);
             context.SaveChanges();
 
-            return "Registro eliminado";
+            return "Deleted person.";
         }
 
         public List<Usuario> GetUsuario()
@@ -39,7 +39,7 @@ namespace Asignacion3.Services
                     return new BadRequestObjectResult(new
                     {
                         ok = false,
-                        message = "Favor introducir correo y clave."
+                        message = "Please enter email and password."
                     });
 
                 var user = context.Usuario.FirstOrDefault(u => (u.Correo.Equals(correo) && u.Clave.Equals(clave)));
@@ -48,7 +48,7 @@ namespace Asignacion3.Services
                     return new UnauthorizedObjectResult(new
                     {
                         ok = false,
-                        message = "Correo o clave inválidos."
+                        message = "Invalid credentials. Please verify your email and password."
                     });
 
                 return new OkObjectResult(new
@@ -69,7 +69,7 @@ namespace Asignacion3.Services
                 return new ObjectResult(new
                 {
                     ok = false,
-                    message = "Ocurrió un error en el servidor",
+                    message = "Internal Server Error. Please try again later.",
                     error = ex.Message
                 })
                 { 
@@ -98,7 +98,7 @@ namespace Asignacion3.Services
             context.Usuario.Add(model);
             context.SaveChanges();
 
-            return "Registro guardado";
+            return "Saved person.";
         }
 
         public string UpdateUsuario(Usuario model)
@@ -106,7 +106,7 @@ namespace Asignacion3.Services
             context.Entry(model).State = EntityState.Modified;
             context.SaveChanges();
 
-            return "Registro modificado";
+            return "Modified person.";
         }
     }
 }

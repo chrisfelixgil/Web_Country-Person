@@ -15,7 +15,6 @@ loginElement.addEventListener("submit", (event) => {
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({ correo: datos.correo, clave: datos.clave }) // Envía el cuerpo en formato JSON
     })
     .then(async (res) => {
       if (!res.ok) {
@@ -30,14 +29,14 @@ loginElement.addEventListener("submit", (event) => {
         if (!person.ok){
             alert(person.message);
         } else {
-            console.log("Datos del usuario: ", person.data);
-            alert("Inicio de sessión exitoso")
+            console.log(person.data);
+            alert("Successful login")
             window.location.href = "/index.html";
         }
         
     })
     .catch((error) => {
-      console.error("Error al consumir APIP: ", error);
-      alert("Ocurrió un error al iniciar sessión. Por favor, intente de nuevo.")
+      console.error("Error inesperado: ", error);
+      alert(error.message || "An unexpected error occurred. Please try again.");
     });
 });
