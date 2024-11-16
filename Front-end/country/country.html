@@ -40,7 +40,7 @@
             placeholder="Enter country name"
             class="input-search"
           />
-          <button type="submit" class="search-button">🔍</button>
+          <button type="submit" class="search-button" onclick="searchCountry()">🔍</button>
         </form>
         <br />
 
@@ -61,8 +61,9 @@
       <!-- SECCION BUTTONS-->
       <section class="section-two">
         <button class="action-buttons" type="button" onclick="mostrarFormulario()">New Country</button>
-        <button class="action-buttons" type="button">Update Country</button>
-        <button class="action-buttons" type="button">Delete Country</button>
+        <button class="action-buttons" type="button" onclick="updateCountry()">Update Country</button>
+        <button class="action-buttons" type="button" onclick="deleteCountry()">Delete Country</button>
+        
         <p class="mensaje-post"></p>
         <br />
 

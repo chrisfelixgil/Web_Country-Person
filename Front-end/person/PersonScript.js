@@ -42,7 +42,7 @@ function searchPerson() {
     const datos = Object.fromEntries(datosform);
     const name = datos.nombre;
 
-    // Verificar si 'name' está vacío y llamar a 'allPersons' si es necesario
+    // Verificar si 'name' está vacío llamar a 'allPersons' si es necesario
     if(!name){
       allPersons();
       return;
@@ -82,6 +82,15 @@ function searchPerson() {
 }
 
 
+//Botón ocultar formulario
+function ocultarFormulario() {
+  const contenedorFormulario = document.getElementById("contenedor-formulario");
+  if (contenedorFormulario.firstChild) {
+    contenedorFormulario.innerHTML = ""; // Borra el contenido del div
+  }
+}
+
+
 //Generar el formulario al presionar el botón new person y crear nueva persona
 function newPerson() {
   if (document.querySelector('.new-form')) {
@@ -103,6 +112,7 @@ function newPerson() {
     <label for="status">Status</label>
     <input name="estatus" type="text" placeholder="Active or Non Active" id="status" />
     <button type="submit" class="action-buttons" id="new-button">New Person</button>
+    <button class="action-buttons" type="button" onclick="ocultarFormulario()">Hide form</button>
   `;
 
   // Insertar el formulario en el contenedor
@@ -155,7 +165,7 @@ function updatePerson() {
     <label for="id">ID Number</label>
     <input name="id" type="number" placeholder="Enter id" id="id"/>
     <label for="person-name">Name</label>
-    <input name="nombre" type="text" placeholder="Enter country" id="person-name" />
+    <input name="nombre" type="text" placeholder="Enter name" id="person-name" />
     <label for="correo">Demonym</label>
     <input name="correo" type="text" placeholder="Enter E-mail" id="correo" />
     <label for="password">Password</label>
@@ -163,6 +173,7 @@ function updatePerson() {
     <label for="status">Status</label>
     <input name="estatus" type="text" placeholder="Active or Non Active" id="status" />
     <button type="submit" class="action-buttons" id="new-button">Update Person</button>
+    <button class="action-buttons" type="button" onclick="ocultarFormulario()">Hide form</button>
   `;
 
   // Insertar el formulario en el contenedor
@@ -215,6 +226,7 @@ function deletePerson() {
     <label for="id-number">ID Number</label>
     <input name="id" type="number" placeholder="Enter ID" id="id-number"/>
     <button type="submit" class="action-buttons" id="delete-button">Delete Person</button>
+    <button class="action-buttons" type="button" onclick="ocultarFormulario()">Hide form</button>
   `;
 
   // Insertar el formulario en el contenedor
