@@ -11,13 +11,15 @@
         <h1>CountryPedia</h1>
         <h2>Welcome Back!</h2>
         <h3>Sing in to continue.</h3>
-        <form method="get" class="login">
+        <form method="get" class="login" id="login-id">
             <label for="input-mail">E-mail</label>
-            <input type="text" name="correo" id="input-mail" placeholder="Enter E-mail">
+            <input type="text" name="correo" id="input-mail" required placeholder="Enter E-mail">
             <label for="input-pass">Password</label>
-            <input type="password" name="clave" id="input-pass" placeholder="Enter Password">
+            <input type="password" name="clave" id="input-pass" required placeholder="Enter Password">
             <button type="submit" class="login-button">Sing In</button>
+            
         </form>
     </main>
+    <script src="/login/login.js"></script>
 </body>
 </html>

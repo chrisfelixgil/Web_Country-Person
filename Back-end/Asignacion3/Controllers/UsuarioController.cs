@@ -48,9 +48,9 @@ namespace Asignacion3.Controllers
 
         //Mejorar para que la excepción salga en CLI de la API
         [HttpPost("Login")]
-        public Usuario Login(string correo, string password) 
+        public IActionResult Login(string correo, string clave)
         {
-            return service.Login(correo, password);
+            return service.Login(correo, clave);
         }
 
 

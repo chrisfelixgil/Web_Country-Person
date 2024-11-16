@@ -3,36 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\chris\\OneDrive\\Escritorio\\ITLA\\Cuatrimestre 4\\Programaci\u00F3n II - Juan Enmanuel Rosario Rodriguez\\Asignacion4\\Web_Country-Person\\Back-end\\Asignacion3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F4E80C5B-91D2-45D0-8DBF-CF9F8D0AE357}|Asignacion3.csproj|c:\\users\\chris\\onedrive\\escritorio\\itla\\cuatrimestre 4\\programaci\u00F3n ii - juan enmanuel rosario rodriguez\\asignacion4\\web_country-person\\back-end\\asignacion3\\services\\paisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4E80C5B-91D2-45D0-8DBF-CF9F8D0AE357}|Asignacion3.csproj|solutionrelative:services\\paisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4E80C5B-91D2-45D0-8DBF-CF9F8D0AE357}|Asignacion3.csproj|c:\\users\\chris\\onedrive\\escritorio\\itla\\cuatrimestre 4\\programaci\u00F3n ii - juan enmanuel rosario rodriguez\\asignacion4\\web_country-person\\back-end\\asignacion3\\controllers\\paiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4E80C5B-91D2-45D0-8DBF-CF9F8D0AE357}|Asignacion3.csproj|solutionrelative:controllers\\paiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4E80C5B-91D2-45D0-8DBF-CF9F8D0AE357}|Asignacion3.csproj|c:\\users\\chris\\onedrive\\escritorio\\itla\\cuatrimestre 4\\programaci\u00F3n ii - juan enmanuel rosario rodriguez\\asignacion4\\web_country-person\\back-end\\asignacion3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4E80C5B-91D2-45D0-8DBF-CF9F8D0AE357}|Asignacion3.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4E80C5B-91D2-45D0-8DBF-CF9F8D0AE357}|Asignacion3.csproj|c:\\users\\chris\\onedrive\\escritorio\\itla\\cuatrimestre 4\\programaci\u00F3n ii - juan enmanuel rosario rodriguez\\asignacion4\\web_country-person\\back-end\\asignacion3\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4E80C5B-91D2-45D0-8DBF-CF9F8D0AE357}|Asignacion3.csproj|solutionrelative:services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F4E80C5B-91D2-45D0-8DBF-CF9F8D0AE357}|Asignacion3.csproj|c:\\users\\chris\\onedrive\\escritorio\\itla\\cuatrimestre 4\\programaci\u00F3n ii - juan enmanuel rosario rodriguez\\asignacion4\\web_country-person\\back-end\\asignacion3\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F4E80C5B-91D2-45D0-8DBF-CF9F8D0AE357}|Asignacion3.csproj|solutionrelative:controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4E80C5B-91D2-45D0-8DBF-CF9F8D0AE357}|Asignacion3.csproj|c:\\users\\chris\\onedrive\\escritorio\\itla\\cuatrimestre 4\\programaci\u00F3n ii - juan enmanuel rosario rodriguez\\asignacion4\\web_country-person\\back-end\\asignacion3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F4E80C5B-91D2-45D0-8DBF-CF9F8D0AE357}|Asignacion3.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4E80C5B-91D2-45D0-8DBF-CF9F8D0AE357}|Asignacion3.csproj|c:\\users\\chris\\onedrive\\escritorio\\itla\\cuatrimestre 4\\programaci\u00F3n ii - juan enmanuel rosario rodriguez\\asignacion4\\web_country-person\\back-end\\asignacion3\\contexto\\asignacion3context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4E80C5B-91D2-45D0-8DBF-CF9F8D0AE357}|Asignacion3.csproj|solutionrelative:contexto\\asignacion3context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4E80C5B-91D2-45D0-8DBF-CF9F8D0AE357}|Asignacion3.csproj|c:\\users\\chris\\onedrive\\escritorio\\itla\\cuatrimestre 4\\programaci\u00F3n ii - juan enmanuel rosario rodriguez\\asignacion4\\web_country-person\\back-end\\asignacion3\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F4E80C5B-91D2-45D0-8DBF-CF9F8D0AE357}|Asignacion3.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4E80C5B-91D2-45D0-8DBF-CF9F8D0AE357}|Asignacion3.csproj|c:\\users\\chris\\onedrive\\escritorio\\itla\\cuatrimestre 4\\programaci\u00F3n ii - juan enmanuel rosario rodriguez\\asignacion4\\web_country-person\\back-end\\asignacion3\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4E80C5B-91D2-45D0-8DBF-CF9F8D0AE357}|Asignacion3.csproj|solutionrelative:services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F4E80C5B-91D2-45D0-8DBF-CF9F8D0AE357}|Asignacion3.csproj|c:\\users\\chris\\onedrive\\escritorio\\itla\\cuatrimestre 4\\programaci\u00F3n ii - juan enmanuel rosario rodriguez\\asignacion4\\web_country-person\\back-end\\asignacion3\\interfaces\\iusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,8 +26,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\ITLA\\Cuatrimestre 4\\Programaci\u00F3n II - Juan Enmanuel Rosario Rodriguez\\Asignacion4\\Web_Country-Person\\Back-end\\Asignacion3\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\ITLA\\Cuatrimestre 4\\Programaci\u00F3n II - Juan Enmanuel Rosario Rodriguez\\Asignacion4\\Web_Country-Person\\Back-end\\Asignacion3\\Models\\Usuario.cs",
+              "RelativeToolTip": "Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T17:55:58.994Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -59,123 +48,41 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PaisService.cs",
-              "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\ITLA\\Cuatrimestre 4\\Programaci\u00F3n II - Juan Enmanuel Rosario Rodriguez\\Asignacion4\\Web_Country-Person\\Back-end\\Asignacion3\\Services\\PaisService.cs",
-              "RelativeDocumentMoniker": "Services\\PaisService.cs",
-              "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\ITLA\\Cuatrimestre 4\\Programaci\u00F3n II - Juan Enmanuel Rosario Rodriguez\\Asignacion4\\Web_Country-Person\\Back-end\\Asignacion3\\Services\\PaisService.cs",
-              "RelativeToolTip": "Services\\PaisService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T23:42:10.119Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PaisController.cs",
-              "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\ITLA\\Cuatrimestre 4\\Programaci\u00F3n II - Juan Enmanuel Rosario Rodriguez\\Asignacion4\\Web_Country-Person\\Back-end\\Asignacion3\\Controllers\\PaisController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PaisController.cs",
-              "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\ITLA\\Cuatrimestre 4\\Programaci\u00F3n II - Juan Enmanuel Rosario Rodriguez\\Asignacion4\\Web_Country-Person\\Back-end\\Asignacion3\\Controllers\\PaisController.cs",
-              "RelativeToolTip": "Controllers\\PaisController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T00:44:01.816Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\ITLA\\Cuatrimestre 4\\Programaci\u00F3n II - Juan Enmanuel Rosario Rodriguez\\Asignacion4\\Web_Country-Person\\Back-end\\Asignacion3\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\ITLA\\Cuatrimestre 4\\Programaci\u00F3n II - Juan Enmanuel Rosario Rodriguez\\Asignacion4\\Web_Country-Person\\Back-end\\Asignacion3\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-08T22:58:25.815Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Asignacion3Context.cs",
-              "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\ITLA\\Cuatrimestre 4\\Programaci\u00F3n II - Juan Enmanuel Rosario Rodriguez\\Asignacion4\\Web_Country-Person\\Back-end\\Asignacion3\\Contexto\\Asignacion3Context.cs",
-              "RelativeDocumentMoniker": "Contexto\\Asignacion3Context.cs",
-              "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\ITLA\\Cuatrimestre 4\\Programaci\u00F3n II - Juan Enmanuel Rosario Rodriguez\\Asignacion4\\Web_Country-Person\\Back-end\\Asignacion3\\Contexto\\Asignacion3Context.cs",
-              "RelativeToolTip": "Contexto\\Asignacion3Context.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T23:46:48.424Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\ITLA\\Cuatrimestre 4\\Programaci\u00F3n II - Juan Enmanuel Rosario Rodriguez\\Asignacion4\\Web_Country-Person\\Back-end\\Asignacion3\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\ITLA\\Cuatrimestre 4\\Programaci\u00F3n II - Juan Enmanuel Rosario Rodriguez\\Asignacion4\\Web_Country-Person\\Back-end\\Asignacion3\\appsettings.Development.json",
-              "RelativeToolTip": "appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-28T23:43:17.864Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "UsuarioService.cs",
               "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\ITLA\\Cuatrimestre 4\\Programaci\u00F3n II - Juan Enmanuel Rosario Rodriguez\\Asignacion4\\Web_Country-Person\\Back-end\\Asignacion3\\Services\\UsuarioService.cs",
               "RelativeDocumentMoniker": "Services\\UsuarioService.cs",
               "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\ITLA\\Cuatrimestre 4\\Programaci\u00F3n II - Juan Enmanuel Rosario Rodriguez\\Asignacion4\\Web_Country-Person\\Back-end\\Asignacion3\\Services\\UsuarioService.cs",
               "RelativeToolTip": "Services\\UsuarioService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwC4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T04:19:53.521Z"
+              "WhenOpened": "2024-10-28T04:19:53.521Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "UsuarioController.cs",
               "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\ITLA\\Cuatrimestre 4\\Programaci\u00F3n II - Juan Enmanuel Rosario Rodriguez\\Asignacion4\\Web_Country-Person\\Back-end\\Asignacion3\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsuarioController.cs",
               "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\ITLA\\Cuatrimestre 4\\Programaci\u00F3n II - Juan Enmanuel Rosario Rodriguez\\Asignacion4\\Web_Country-Person\\Back-end\\Asignacion3\\Controllers\\UsuarioController.cs",
               "RelativeToolTip": "Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAzwB4AAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwDQAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T04:19:17.132Z"
+              "WhenOpened": "2024-10-28T04:19:17.132Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "IUsuario.cs",
               "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\ITLA\\Cuatrimestre 4\\Programaci\u00F3n II - Juan Enmanuel Rosario Rodriguez\\Asignacion4\\Web_Country-Person\\Back-end\\Asignacion3\\Interfaces\\IUsuario.cs",
               "RelativeDocumentMoniker": "Interfaces\\IUsuario.cs",
               "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\ITLA\\Cuatrimestre 4\\Programaci\u00F3n II - Juan Enmanuel Rosario Rodriguez\\Asignacion4\\Web_Country-Person\\Back-end\\Asignacion3\\Interfaces\\IUsuario.cs",
               "RelativeToolTip": "Interfaces\\IUsuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T04:18:08.171Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\ITLA\\Cuatrimestre 4\\Programaci\u00F3n II - Juan Enmanuel Rosario Rodriguez\\Asignacion4\\Web_Country-Person\\Back-end\\Asignacion3\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\ITLA\\Cuatrimestre 4\\Programaci\u00F3n II - Juan Enmanuel Rosario Rodriguez\\Asignacion4\\Web_Country-Person\\Back-end\\Asignacion3\\Models\\Usuario.cs",
-              "RelativeToolTip": "Models\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T04:13:55.688Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\ITLA\\Cuatrimestre 4\\Programaci\u00F3n II - Juan Enmanuel Rosario Rodriguez\\Asignacion4\\Web_Country-Person\\Back-end\\Asignacion3\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\ITLA\\Cuatrimestre 4\\Programaci\u00F3n II - Juan Enmanuel Rosario Rodriguez\\Asignacion4\\Web_Country-Person\\Back-end\\Asignacion3\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T02:30:29.97Z"
+              "WhenOpened": "2024-10-28T04:18:08.171Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -183,22 +183,12 @@
         "IsRequired": false
       },
       {
-        "Name": "password",
+        "Name": "clave",
         "Type": "System.String",
         "IsRequired": false
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "Asignacion3.Models.Usuario",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "Asignacion3.Controllers.UsuarioController",

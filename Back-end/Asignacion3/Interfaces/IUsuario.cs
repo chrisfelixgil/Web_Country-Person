@@ -1,4 +1,5 @@
 ﻿using Asignacion3.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Asignacion3.Interfaces
 {
@@ -9,7 +10,7 @@ namespace Asignacion3.Interfaces
         string UpdateUsuario(Usuario model);
         string DeleteUsuario(int id);
         Usuario SearchUsuario(string usuario);
-        Usuario Login(string correo, string password);
+        IActionResult Login(string correo, string clave);
 
     }
 }

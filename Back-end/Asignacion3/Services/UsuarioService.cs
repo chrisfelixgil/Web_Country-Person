@@ -2,6 +2,7 @@
 using Asignacion3.Interfaces;
 using Asignacion3.Models;
 using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Win32;
 
@@ -29,33 +30,54 @@ namespace Asignacion3.Services
             return context.Usuario.ToList();
         }
 
-        public Usuario Login(string correo, string password)
-        {
-            try 
-            {
-                if (string.IsNullOrEmpty(correo) && string.IsNullOrEmpty(password))
-                    throw new ArgumentException("Favor introducir correo y clave");
 
-                var user = context.Usuario.FirstOrDefault(u => (u.Correo.Equals(correo) && u.Clave.Equals(password)));
+        public IActionResult Login(string correo, string clave)
+        {
+            try
+            {
+                if (string.IsNullOrEmpty(correo) || string.IsNullOrEmpty(clave))
+                    return new BadRequestObjectResult(new
+                    {
+                        ok = false,
+                        message = "Favor introducir correo y clave."
+                    });
+
+                var user = context.Usuario.FirstOrDefault(u => (u.Correo.Equals(correo) && u.Clave.Equals(clave)));
 
                 if (user == null)
-                    throw new ArgumentException("Correo o clave invalidos");
+                    return new UnauthorizedObjectResult(new
+                    {
+                        ok = false,
+                        message = "Correo o clave inválidos."
+                    });
 
-                return new Usuario
+                return new OkObjectResult(new
                 {
-                    Id = user.Id,
-                    Nombre = user.Nombre,
-                    Correo = user.Correo,
-                    Clave = user.Clave,
-                    Estatus = user.Estatus
+                    ok = true,
+                    data = new
+                    {
+                        Id = user.Id,
+                        Nombre = user.Nombre,
+                        Correo = user.Correo,
+                        Clave = user.Clave,
+                        Estatus = user.Estatus
+                    }
+                });
+            }
+            catch (Exception ex) 
+            {
+                return new ObjectResult(new
+                {
+                    ok = false,
+                    message = "Ocurrió un error en el servidor",
+                    error = ex.Message
+                })
+                { 
+                    StatusCode = 500
                 };
             }
-            catch (ArgumentException ex)
-            {
-                Console.WriteLine($"Error de validación: {ex.Message}");
-                return null;
-            }
         }
+
 
         public Usuario SearchUsuario(string usuario)
         {
